@@ -765,3 +765,2205 @@ Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for 
   [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
   [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
   [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+Started GET "/" for ::1 at 2020-12-15 12:53:42 -0500
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 4.9ms | Allocations: 320)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1036ms (ActiveRecord: 0.0ms | Allocations: 10284)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 12:54:11 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 5)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 879ms (ActiveRecord: 0.0ms | Allocations: 5756)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%# javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 12:54:25 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 81)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 2842)
+
+
+Started GET "/" for ::1 at 2020-12-15 12:54:29 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 81)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 861ms (ActiveRecord: 0.0ms | Allocations: 6648)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 12:54:32 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 854ms (ActiveRecord: 0.0ms | Allocations: 5643)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 12:54:33 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 841ms (ActiveRecord: 0.0ms | Allocations: 5647)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 12:54:39 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 80)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 864ms (ActiveRecord: 0.0ms | Allocations: 9781)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%# javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 12:54:41 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 80)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 2891)
+
+
+Started GET "/" for ::1 at 2020-12-15 12:54:42 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 1894)
+
+
+Started GET "/" for ::1 at 2020-12-15 12:54:43 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.0ms | Allocations: 1888)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 12:54:46 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (1.0ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 35.1ms | Allocations: 6990)
+Completed 200 OK in 58ms (Views: 35.7ms | ActiveRecord: 2.3ms | Allocations: 11389)
+
+
+Started GET "/powers/1" for ::1 at 2020-12-15 12:55:03 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  [1m[36mPower Load (0.7ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/show.html.erb:8
+  Rendered powers/show.html.erb within layouts/application (Duration: 154.3ms | Allocations: 77157)
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 1.0ms | Allocations: 78817)
+
+
+  
+ActionView::Template::Error (undefined method `name' for #<#<Class:0x00007f8ea1537410>:0x00007f8e9e4930e8>):
+     5: <h4> <%= @power.rating %> </h4>
+     6: 
+     7: 
+     8: <p> <%= Power.all.select {|power| power.name == self.name }.map {|power| power.rating }.reduce(:+) / Power.all.select {|power| power.name == self.name }.count %> </p>
+     9: 
+    10: <p> <%= "Already exists in the comic book world" if @power.already_exists == true %> </p>
+    11: <p> <%= "Watch out Marvel" if @power.already_exists == false %> </p>
+  
+app/views/powers/show.html.erb:8
+app/views/powers/show.html.erb:8
+Started GET "/powers/1" for ::1 at 2020-12-15 12:55:13 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 509)
+Completed 200 OK in 13ms (Views: 8.8ms | ActiveRecord: 0.3ms | Allocations: 3858)
+
+
+Started POST "/powers.1" for ::1 at 2020-12-15 12:55:17 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"DFW0pcTi+95kIowQnuaiNn8h+L8OvaeFy1KMAFU2W2MO7X4+6DNvsch6TS5j276eDt8zd7NBtLUndpkfh+n6eQ=="}
+Completed 400 Bad Request in 16ms (ActiveRecord: 0.0ms | Allocations: 765)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:42:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.1" for ::1 at 2020-12-15 12:55:31 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"DFW0pcTi+95kIowQnuaiNn8h+L8OvaeFy1KMAFU2W2MO7X4+6DNvsch6TS5j276eDt8zd7NBtLUndpkfh+n6eQ=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 761)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:42:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started GET "/powers/7" for ::1 at 2020-12-15 12:55:50 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.5ms | Allocations: 299)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 2743)
+
+
+Started GET "/powers/10" for ::1 at 2020-12-15 12:55:52 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 294)
+Completed 200 OK in 8ms (Views: 4.9ms | ActiveRecord: 0.2ms | Allocations: 2723)
+
+
+Started GET "/powers/14" for ::1 at 2020-12-15 12:56:05 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 294)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.4ms | Allocations: 2734)
+
+
+Started DELETE "/powers/14" for ::1 at 2020-12-15 12:56:07 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BTd7JD/8EZdAFbAXjKDn/Z0KuLfpczs1b7UEywm8u7FpGxO/EtWHelle3W0UuGnslIaJjGCfIYCiA1nFg0VSxg==", "id"=>"14"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.6ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 14]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 10ms (ActiveRecord: 2.4ms | Allocations: 2903)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 12:56:07 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 1845)
+Completed 200 OK in 13ms (Views: 10.3ms | ActiveRecord: 0.4ms | Allocations: 3889)
+
+
+Started GET "/powers/1" for ::1 at 2020-12-15 12:56:11 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 295)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 2732)
+
+
+Started DELETE "/powers/1" for ::1 at 2020-12-15 12:56:12 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"C5RHbZPkR2ewPdsCeFEnVEoJK0d6BhKr6LIPqxDBfl/hPjJOqTo9BXG76rW48nNoLMEIkIX5SeBsAxr89ieTZg==", "id"=>"1"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.5ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 8ms (ActiveRecord: 2.3ms | Allocations: 2851)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 12:56:12 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1673)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.4ms | Allocations: 3577)
+
+
+Started GET "/powers/new" for ::1 at 2020-12-15 12:56:37 -0500
+Processing by PowersController#new as HTML
+  Rendering powers/new.html.erb within layouts/application
+  Rendered powers/new.html.erb within layouts/application (Duration: 246.4ms | Allocations: 210920)
+Completed 200 OK in 252ms (Views: 249.2ms | ActiveRecord: 0.0ms | Allocations: 212974)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 12:56:47 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"leUtWMD75pfT0qZBbCs53tqB6opwOkFHsBGAtwjTPs70/QbAxJvZlwr21nwiZRtZGLQwfJhR0oYNLJgz0F/7tA==", "power"=>{"name"=>"jacob", "reason"=>"to be jacob", "rating"=>"2", "already_exists"=>"1"}, "commit"=>"Create Power"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (1.6ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "jacob"], ["reason", "to be jacob"], ["rating", 2], ["already_exists", 1], ["created_at", "2020-12-15 17:56:47.856616"], ["updated_at", "2020-12-15 17:56:47.856616"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/31
+Completed 302 Found in 11ms (ActiveRecord: 2.8ms | Allocations: 2965)
+
+
+Started GET "/powers/31" for ::1 at 2020-12-15 12:56:47 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 295)
+Completed 200 OK in 11ms (Views: 7.1ms | ActiveRecord: 0.4ms | Allocations: 2726)
+
+
+Started POST "/powers.31" for ::1 at 2020-12-15 12:56:50 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"raf6gfpw9hauny4zgUEO38wiSWPA05IJ9zJojKU0vo9a+9xebQD+nnDZucvv6iOAm+Gybc1pOX68Ce6rgjOStw=="}
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 757)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:42:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started GET "/" for ::1 at 2020-12-15 15:02:41 -0500
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 202)
+Completed 200 OK in 68ms (Views: 60.4ms | ActiveRecord: 0.0ms | Allocations: 5776)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:02:45 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.9ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 57.3ms | Allocations: 6961)
+Completed 200 OK in 67ms (Views: 58.2ms | ActiveRecord: 2.2ms | Allocations: 9356)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:02:51 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1721)
+Completed 200 OK in 13ms (Views: 10.5ms | ActiveRecord: 0.4ms | Allocations: 3630)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:02:53 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1860)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1021ms (ActiveRecord: 0.3ms | Allocations: 8793)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <% javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/powers" for ::1 at 2020-12-15 15:03:00 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1871)
+Completed 200 OK in 13ms (Views: 10.4ms | ActiveRecord: 0.5ms | Allocations: 4741)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:07:17 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 13.1ms | Allocations: 7052)
+Completed 200 OK in 39ms (Views: 24.2ms | ActiveRecord: 0.9ms | Allocations: 12996)
+
+
+Started GET "/powers/2" for ::1 at 2020-12-15 15:07:21 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 2.9ms | Allocations: 529)
+Completed 200 OK in 19ms (Views: 9.0ms | ActiveRecord: 0.5ms | Allocations: 3551)
+
+
+Started POST "/powers.2" for ::1 at 2020-12-15 15:07:24 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"hzNhpRnTfLdJa4yTK7s4fDHgIVrphXvAbOOoIRf9DWzzR3WQ9yeCDVPHcKBy9tS2zCmQgaAstdnICl+bZIr/SA=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 782)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:42:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started GET "/" for ::1 at 2020-12-15 15:07:41 -0500
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 84)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 2146)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:07:48 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1741)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.4ms | Allocations: 3667)
+
+
+Started GET "/powers/new" for ::1 at 2020-12-15 15:07:49 -0500
+Processing by PowersController#new as HTML
+  Rendering powers/new.html.erb within layouts/application
+  Rendered powers/new.html.erb within layouts/application (Duration: 218.4ms | Allocations: 210190)
+Completed 200 OK in 224ms (Views: 221.7ms | ActiveRecord: 0.0ms | Allocations: 212248)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 15:08:01 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"KlmwRP9Ydf3tvmOEWLaqM9/kofD1vqKUyyK4w0uxsm1LQZvc+zhK/TSaE7kW+Ii0HdF7Bh3VMVV2H6BHkz13Fw==", "power"=>{"name"=>"jenna power", "reason"=>"being jenna", "rating"=>"5", "already_exists"=>"0"}, "commit"=>"Create Power"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (1.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "jenna power"], ["reason", "being jenna"], ["rating", 5], ["already_exists", 0], ["created_at", "2020-12-15 20:08:01.816561"], ["updated_at", "2020-12-15 20:08:01.816561"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/32
+Completed 302 Found in 11ms (ActiveRecord: 2.7ms | Allocations: 3016)
+
+
+Started GET "/powers/32" for ::1 at 2020-12-15 15:08:01 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"32"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 295)
+Completed 200 OK in 12ms (Views: 9.3ms | ActiveRecord: 0.3ms | Allocations: 2737)
+
+
+Started DELETE "/powers/32" for ::1 at 2020-12-15 15:08:09 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4VHv0WtnN9EFdDUEbrb0HOFM+9/afTPThkh2Td0+pP3qh73jcft8oyJg7FCkUAPGxOWBVMZVVMortOrniDepVg==", "id"=>"32"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 32], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.8ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 32]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 12ms (ActiveRecord: 2.7ms | Allocations: 2878)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:08:09 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (2.7ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 8.5ms | Allocations: 2785)
+Completed 200 OK in 15ms (Views: 11.1ms | ActiveRecord: 2.7ms | Allocations: 4692)
+
+
+Started GET "/powers/edit" for ::1 at 2020-12-15 15:08:22 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"edit"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.3ms | Allocations: 1211)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Power with 'id'=edit):
+  
+app/controllers/powers_controller.rb:11:in `show'
+Started GET "/powers/3/edit" for ::1 at 2020-12-15 15:08:28 -0500
+Processing by PowersController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:24:in `edit'
+  Rendering powers/edit.html.erb within layouts/application
+  Rendered powers/edit.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1004)
+Completed 200 OK in 62ms (Views: 56.0ms | ActiveRecord: 0.3ms | Allocations: 3576)
+
+
+Started PATCH "/powers/3" for ::1 at 2020-12-15 15:08:44 -0500
+Processing by PowersController#update as HTML
+  Parameters: {"authenticity_token"=>"mPyVG6FPcJtj2hDrN1glDRKNVVPR7PWwMVMck+HIOo+pe8scDGHSNLVUjcC0HGwPtcu/nSgj6vbr4N460izqhw==", "power"=>{"reason"=>"to control all the animals", "rating"=>"1"}, "commit"=>"Update Power", "id"=>"3"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:28:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:29:in `update'
+  [1m[36mPower Update (0.8ms)[0m  [1m[33mUPDATE "powers" SET "reason" = ?, "rating" = ?, "updated_at" = ? WHERE "powers"."id" = ?[0m  [["reason", "to control all the animals"], ["rating", 1], ["updated_at", "2020-12-15 20:08:44.213054"], ["id", 3]]
+  ↳ app/controllers/powers_controller.rb:29:in `update'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:29:in `update'
+Redirected to http://localhost:3000/powers/3
+Completed 302 Found in 18ms (ActiveRecord: 2.5ms | Allocations: 3430)
+
+
+Started GET "/powers/3" for ::1 at 2020-12-15 15:08:44 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 295)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.2ms | Allocations: 2731)
+
+
+Started GET "/powers/3" for ::1 at 2020-12-15 15:09:01 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 525)
+Completed 200 OK in 10ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 3883)
+
+
+Started GET "/" for ::1 at 2020-12-15 15:10:59 -0500
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PowersController#home as HTML
+  Rendering powers/home.html.erb within layouts/application
+  Rendered powers/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 202)
+Completed 200 OK in 104ms (Views: 96.9ms | ActiveRecord: 0.0ms | Allocations: 5786)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:11:03 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.8ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 62.5ms | Allocations: 6965)
+Completed 200 OK in 70ms (Views: 64.2ms | ActiveRecord: 2.1ms | Allocations: 9370)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:11:55 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1860)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1693ms (ActiveRecord: 0.3ms | Allocations: 10777)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/powers" for ::1 at 2020-12-15 15:11:57 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 60.0ms | Allocations: 1732)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1281ms (ActiveRecord: 0.2ms | Allocations: 7431)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/powers/3" for ::1 at 2020-12-15 15:25:54 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPower Load (0.8ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 3.3ms | Allocations: 696)
+Completed 200 OK in 42ms (Views: 20.6ms | ActiveRecord: 1.6ms | Allocations: 12610)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:25:56 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1888)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.5ms | Allocations: 3954)
+
+
+Started GET "/powers/new" for ::1 at 2020-12-15 15:26:07 -0500
+Processing by PowersController#new as HTML
+  Rendering powers/new.html.erb within layouts/application
+  Rendered powers/new.html.erb within layouts/application (Duration: 274.5ms | Allocations: 208031)
+Completed 200 OK in 280ms (Views: 277.9ms | ActiveRecord: 0.0ms | Allocations: 210100)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 15:26:16 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"U/aiXD63fuIlvqUkfyd3LqIsX1lF0rF9qzxUDZQJG/Iy7onEOtdB4vya1RkxaVWpYBmFr625IrwWAUyJTIXeiA==", "power"=>{"name"=>"amy", "reason"=>"amy power", "rating"=>"2", "already_exists"=>"1"}, "commit"=>"Create Power"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (1.5ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "amy"], ["reason", "amy power"], ["rating", 2], ["already_exists", 1], ["created_at", "2020-12-15 20:26:16.906108"], ["updated_at", "2020-12-15 20:26:16.906108"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/33
+Completed 302 Found in 13ms (ActiveRecord: 3.3ms | Allocations: 3020)
+
+
+Started GET "/powers/33" for ::1 at 2020-12-15 15:26:16 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 299)
+Completed 200 OK in 9ms (Views: 6.0ms | ActiveRecord: 0.3ms | Allocations: 2740)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:26:20 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1759)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.4ms | Allocations: 3669)
+
+
+Started GET "/powers/33" for ::1 at 2020-12-15 15:26:22 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 297)
+Completed 200 OK in 8ms (Views: 5.0ms | ActiveRecord: 0.3ms | Allocations: 2725)
+
+
+Started POST "/powers.33" for ::1 at 2020-12-15 15:26:23 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"loabf1v0n7+Un1E81D6xB4Csoh3+gSdBiD8qfpQ9jZyAj1RFrLIKL3A7+KdTgZKMBB26XMkex8AkwXVORU+0lw=="}
+Completed 400 Bad Request in 27ms (ActiveRecord: 0.0ms | Allocations: 767)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:42:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.33" for ::1 at 2020-12-15 15:28:13 -0500
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"loabf1v0n7+Un1E81D6xB4Csoh3+gSdBiD8qfpQ9jZyAj1RFrLIKL3A7+KdTgZKMBB26XMkex8AkwXVORU+0lw=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.6ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:13.715856"], ["updated_at", "2020-12-15 20:28:13.715856"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/34
+Completed 302 Found in 18ms (ActiveRecord: 3.0ms | Allocations: 7931)
+
+
+Started GET "/powers/34" for ::1 at 2020-12-15 15:28:13 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 34], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 300)
+Completed 200 OK in 6ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 3070)
+
+
+Started POST "/powers.34" for ::1 at 2020-12-15 15:28:18 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"hmLCG3cE700g2TrqNpDvD8F71wUUpwCdHcE1/tz8VnH8PV16u2iIH4ZHgd9GR0YPJ/eeHKTBHwgY3lShlWA9NA=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.5ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:18.151395"], ["updated_at", "2020-12-15 20:28:18.151395"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/35
+Completed 302 Found in 9ms (ActiveRecord: 2.3ms | Allocations: 2710)
+
+
+Started GET "/powers/35" for ::1 at 2020-12-15 15:28:18 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 35], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 289)
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 2712)
+
+
+Started POST "/powers.35" for ::1 at 2020-12-15 15:28:19 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"x4asok7WmxDnS2dvvX8ZQAcW2jkgA9fMTvUUBF9sTESr3wKzaZDmxTez1v30VynBKGtqZolA1ZXo3XG5xl/sTA=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.9ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:19.851655"], ["updated_at", "2020-12-15 20:28:19.851655"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/36
+Completed 302 Found in 10ms (ActiveRecord: 2.4ms | Allocations: 2708)
+
+
+Started GET "/powers/36" for ::1 at 2020-12-15 15:28:19 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.4ms | Allocations: 289)
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.3ms | Allocations: 2717)
+
+
+Started POST "/powers.36" for ::1 at 2020-12-15 15:28:20 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"E0vHJt9cZgHMD2+Xyi//zJVhig4V+AIQICHdLqHM1imkqiWx4LhVCojXyvl+qKkHUYZDBz6i2heBBmfaOF27+w=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.8ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:20.629233"], ["updated_at", "2020-12-15 20:28:20.629233"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/37
+Completed 302 Found in 12ms (ActiveRecord: 2.6ms | Allocations: 2711)
+
+
+Started GET "/powers/37" for ::1 at 2020-12-15 15:28:20 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 289)
+Completed 200 OK in 16ms (Views: 9.4ms | ActiveRecord: 0.3ms | Allocations: 4333)
+
+
+Started POST "/powers.37" for ::1 at 2020-12-15 15:28:22 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"yI7Lhxkr+07Io4XU8F3nSbORzdc/inZgP3LQiYnMISLHerCL3ROIjuOZziDS1hFTj5Zc/MsEkZGhWoln8hwVgA=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (1.1ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:22.471864"], ["updated_at", "2020-12-15 20:28:22.471864"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/38
+Completed 302 Found in 12ms (ActiveRecord: 2.8ms | Allocations: 2711)
+
+
+Started GET "/powers/38" for ::1 at 2020-12-15 15:28:22 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 289)
+Completed 200 OK in 11ms (Views: 6.6ms | ActiveRecord: 0.4ms | Allocations: 2723)
+
+
+Started POST "/powers.38" for ::1 at 2020-12-15 15:28:22 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"V7uehtykIwRrGZq2/4obr4+tS07GTTJGSZ/rt6KGg4bzFOIBZLTzZrhqKVZQIBLt41VEL25x523kKUmLQVbvmg=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.6ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:22.913694"], ["updated_at", "2020-12-15 20:28:22.913694"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/39
+Completed 302 Found in 8ms (ActiveRecord: 2.0ms | Allocations: 2703)
+
+
+Started GET "/powers/39" for ::1 at 2020-12-15 15:28:22 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"39"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 289)
+Completed 200 OK in 9ms (Views: 5.9ms | ActiveRecord: 0.2ms | Allocations: 2727)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:28:29 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.6ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1980)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.6ms | Allocations: 3875)
+
+
+Started GET "/powers/38" for ::1 at 2020-12-15 15:28:33 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 289)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 2719)
+
+
+Started POST "/powers.38" for ::1 at 2020-12-15 15:28:34 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"Mv8EDf0GSH24PCETemo8zdEuT6JeiVQgU4vMzunBFpaWUHiKRRaYH2tPkvPVwDWPvdZAw/a1gQv+PW7yChF6ig=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.5ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:34.735536"], ["updated_at", "2020-12-15 20:28:34.735536"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/40
+Completed 302 Found in 10ms (ActiveRecord: 2.5ms | Allocations: 2702)
+
+
+Started GET "/powers/40" for ::1 at 2020-12-15 15:28:34 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"40"}
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 289)
+Completed 200 OK in 11ms (Views: 6.8ms | ActiveRecord: 0.5ms | Allocations: 2712)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:28:37 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 1994)
+Completed 200 OK in 13ms (Views: 10.7ms | ActiveRecord: 0.5ms | Allocations: 3896)
+
+
+Started GET "/powers/39" for ::1 at 2020-12-15 15:28:40 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"39"}
+  [1m[36mPower Load (0.8ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.7ms | Allocations: 289)
+Completed 200 OK in 10ms (Views: 5.3ms | ActiveRecord: 0.8ms | Allocations: 2719)
+
+
+Started POST "/powers.39" for ::1 at 2020-12-15 15:28:42 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"tW2R1QOSi4o4T/1tTGYzlNbbow/gRLpk0B8xCpqal5wjvo2msNkbfNF0Cvzeh33i//nYhJ6niXEcyjC6LD67dA=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (1.1ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:42.202540"], ["updated_at", "2020-12-15 20:28:42.202540"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/41
+Completed 302 Found in 12ms (ActiveRecord: 3.0ms | Allocations: 2707)
+
+
+Started GET "/powers/41" for ::1 at 2020-12-15 15:28:42 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"41"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 289)
+Completed 200 OK in 9ms (Views: 5.3ms | ActiveRecord: 0.3ms | Allocations: 2715)
+
+
+Started POST "/powers.41" for ::1 at 2020-12-15 15:28:43 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"LnXqhoknVNdcxyCh27Y7lPgmsHZ+XKu5lDHaWO+umyMhezfBZgHnxBWObNAKzgoP3UbjgoypgzSr3U5rG2MqnQ=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.5ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:43.742292"], ["updated_at", "2020-12-15 20:28:43.742292"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/42
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms | Allocations: 2707)
+
+
+Started GET "/powers/42" for ::1 at 2020-12-15 15:28:43 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mPower Load (0.6ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 289)
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.6ms | Allocations: 2715)
+
+
+Started POST "/powers.42" for ::1 at 2020-12-15 15:28:45 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"vW3nMkK/qx9fWif67vmYmcd2X4oLIIjkPZwM142EwPtwfbeCISZoTtgIarsTyQBUOrsI6LD9nDRUYAhQXKy38g=="}
+[31mUnpermitted parameters: :authenticity_token, :format[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.7ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:28:45.214600"], ["updated_at", "2020-12-15 20:28:45.214600"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/43
+Completed 302 Found in 12ms (ActiveRecord: 2.4ms | Allocations: 2705)
+
+
+Started GET "/powers/43" for ::1 at 2020-12-15 15:28:45 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"43"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.6ms | Allocations: 289)
+Completed 200 OK in 11ms (Views: 6.5ms | ActiveRecord: 0.3ms | Allocations: 2717)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:28:47 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.9ms | Allocations: 2099)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.5ms | Allocations: 3999)
+
+
+Started GET "/powers/34" for ::1 at 2020-12-15 15:28:50 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"34"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 34], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 289)
+Completed 200 OK in 9ms (Views: 5.5ms | ActiveRecord: 0.3ms | Allocations: 2720)
+
+
+Started DELETE "/powers/34" for ::1 at 2020-12-15 15:28:51 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6vGjPy56lqfEgRw/FzBJWwoK0KU9+G3KiPDBqaXheqvjgH6+a9xpQA0ama9hrVxAEgkR923N/k7hwrj4Qbe1pQ==", "id"=>"34"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 34], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.8ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 34]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 12ms (ActiveRecord: 2.8ms | Allocations: 2868)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:28:51 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.7ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 7.0ms | Allocations: 2064)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.7ms | Allocations: 3968)
+
+
+Started GET "/powers/43" for ::1 at 2020-12-15 15:28:53 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"43"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 289)
+Completed 200 OK in 9ms (Views: 4.8ms | ActiveRecord: 0.3ms | Allocations: 2720)
+
+
+Started DELETE "/powers/43" for ::1 at 2020-12-15 15:28:55 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"42OhmHNhdtWl7nXpBwg9fL6hqEgIQHaQh/sJTK95BlbNLG7j/NRL6HbrGNWJ9GKiXcbwrfP5SEgA4yGlRsbNeA==", "id"=>"43"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 43], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.8ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 43]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 10ms (ActiveRecord: 3.2ms | Allocations: 2842)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:28:55 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 2029)
+Completed 200 OK in 11ms (Views: 9.5ms | ActiveRecord: 0.4ms | Allocations: 3936)
+
+
+Started GET "/powers/38" for ::1 at 2020-12-15 15:28:59 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"38"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 289)
+Completed 200 OK in 9ms (Views: 4.8ms | ActiveRecord: 0.3ms | Allocations: 2717)
+
+
+Started DELETE "/powers/38" for ::1 at 2020-12-15 15:29:00 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6Y/vyvdlQ+uFyWWSXIOwUoR4qULhEw0MvvqrtUgL/3SHo4sQHXOxd5X5/LuExdPaVJmWlBdd/Q2MvwFc6g4Bsw==", "id"=>"38"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 38], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.4ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 38]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 11ms (ActiveRecord: 3.6ms | Allocations: 2850)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:29:00 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.7ms | Allocations: 1994)
+Completed 200 OK in 12ms (Views: 9.5ms | ActiveRecord: 0.5ms | Allocations: 3894)
+
+
+Started GET "/powers/41" for ::1 at 2020-12-15 15:29:02 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"41"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 289)
+Completed 200 OK in 9ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 2716)
+
+
+Started DELETE "/powers/41" for ::1 at 2020-12-15 15:29:04 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"i8WQs7VoaYWP17gNsiQPOItW3LWvOH1jr6Pby051l5pveaFU8Y7tBDCRKHPnDKmSLT8hi5EPAw6QG2j+O+8jYw==", "id"=>"41"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 41], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.4ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 41]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 10ms (ActiveRecord: 3.1ms | Allocations: 2847)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:29:04 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.6ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1959)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.6ms | Allocations: 3858)
+
+
+Started GET "/powers/39" for ::1 at 2020-12-15 15:29:06 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"39"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 289)
+Completed 200 OK in 11ms (Views: 7.5ms | ActiveRecord: 0.3ms | Allocations: 2714)
+
+
+Started DELETE "/powers/39" for ::1 at 2020-12-15 15:29:07 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"47+D551UZibA3ypG+IAsFx0x0tyq2sSIiIEfVpxSIR1wKtkkUz36UkRqKDRyd1AJbZbRYKz1D+FsNIXuJ+swLA==", "id"=>"39"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.9ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 39]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 11ms (ActiveRecord: 2.9ms | Allocations: 2846)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:29:07 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (1.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1924)
+Completed 200 OK in 13ms (Views: 10.1ms | ActiveRecord: 1.2ms | Allocations: 3824)
+
+
+Started GET "/powers/40" for ::1 at 2020-12-15 15:29:09 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"40"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 289)
+Completed 200 OK in 7ms (Views: 3.8ms | ActiveRecord: 0.3ms | Allocations: 2715)
+
+
+Started DELETE "/powers/40" for ::1 at 2020-12-15 15:29:10 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ytiSKQ4/X8Py+OAIDMNa6tm9XMTwUcuIbZl+i+0G65cqXq332Wyf6EkPe8ikVHwpApSJaka9g0HabWeypv9RMQ==", "id"=>"40"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.5ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 40]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 9ms (ActiveRecord: 2.5ms | Allocations: 2849)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:29:10 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1889)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.4ms | Allocations: 3801)
+
+
+Started GET "/powers/42" for ::1 at 2020-12-15 15:29:12 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"42"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 289)
+Completed 200 OK in 8ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 2717)
+
+
+Started DELETE "/powers/42" for ::1 at 2020-12-15 15:29:14 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JLjUyKOXibwDLD+K0d6HCEem6UzEetABu7aSn+vY1QTjYFYWM/ENXjPJD+0YvZRPs8eNG2cPGlF2fruyYw50GA==", "id"=>"42"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 42], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.6ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 42]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 11ms (ActiveRecord: 2.4ms | Allocations: 2843)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:29:14 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.3ms | Allocations: 1854)
+Completed 200 OK in 12ms (Views: 9.9ms | ActiveRecord: 0.4ms | Allocations: 3753)
+
+
+Started GET "/powers/35" for ::1 at 2020-12-15 15:29:16 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"35"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 35], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 289)
+Completed 200 OK in 7ms (Views: 3.6ms | ActiveRecord: 0.4ms | Allocations: 2721)
+
+
+Started DELETE "/powers/35" for ::1 at 2020-12-15 15:29:17 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YxaVSH9iDRH63O9Vgfjjm85nJNIX3yo2uZ6w6EpqDcKa2ILJriBLcJp7tr2L44G939R7BfcW0M0YN4/QAwfZCA==", "id"=>"35"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 35], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.7ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 35]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 10ms (ActiveRecord: 2.8ms | Allocations: 2847)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:29:17 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 5.1ms | Allocations: 1819)
+Completed 200 OK in 12ms (Views: 10.1ms | ActiveRecord: 0.5ms | Allocations: 3726)
+
+
+Started GET "/powers/36" for ::1 at 2020-12-15 15:29:19 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"36"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 289)
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 2716)
+
+
+Started DELETE "/powers/36" for ::1 at 2020-12-15 15:29:21 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+zyZV07JQ6un75+Zcu1J01cYXF8FG3IeC8/dXNicq17HMByqRfLzYLRzw+7aPL5xrztxg+aLkluX3jdZkPz2sg==", "id"=>"36"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 36], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.7ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 36]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 11ms (ActiveRecord: 2.7ms | Allocations: 2844)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:29:21 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.8ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 4.8ms | Allocations: 1784)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.8ms | Allocations: 3688)
+
+
+Started GET "/powers/37" for ::1 at 2020-12-15 15:29:22 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"37"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 289)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 2718)
+
+
+Started DELETE "/powers/37" for ::1 at 2020-12-15 15:29:23 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yCr3SN7ECY4ZCM3r96rqUdD1umdc0r68x09grR3dxWlbfaP0T86dRdLW247pwBSsuwFqt6xjMis+v9P2Agjq3A==", "id"=>"37"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:34:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[36mPower Destroy (0.5ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 37]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 9ms (ActiveRecord: 2.2ms | Allocations: 2841)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:29:23 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 1749)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.4ms | Allocations: 3646)
+
+
+Started GET "/powers/new" for ::1 at 2020-12-15 15:29:27 -0500
+Processing by PowersController#new as HTML
+  Rendering powers/new.html.erb within layouts/application
+  Rendered powers/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1200)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 3105)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 15:29:44 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"cAAHY+yH4tV1I1gIBOrvFJVOU0xpvmqENWK3AM9YMpsRGCz76Ofd1awHKDVKpM2TV3uJuoHV+UWIX6+EF9T34Q==", "power"=>{"name"=>"Super Strength", "reason"=>"Lift all the things", "rating"=>"5", "already_exists"=>"1"}, "commit"=>"Create Power"}
+[31mUnpermitted parameters: :authenticity_token, :power, :commit[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.5ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:29:44.184194"], ["updated_at", "2020-12-15 20:29:44.184194"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/44
+Completed 302 Found in 8ms (ActiveRecord: 2.7ms | Allocations: 2716)
+
+
+Started GET "/powers/44" for ::1 at 2020-12-15 15:29:44 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"44"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 289)
+Completed 200 OK in 6ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 2716)
+
+
+Started GET "/powers/44" for ::1 at 2020-12-15 15:29:58 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"44"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 302)
+Completed 200 OK in 15ms (Views: 3.7ms | ActiveRecord: 0.8ms | Allocations: 8140)
+
+
+Started GET "/powers/44" for ::1 at 2020-12-15 15:30:00 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"44"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 289)
+Completed 200 OK in 7ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 2713)
+
+
+Started GET "/powers/17" for ::1 at 2020-12-15 15:30:02 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 297)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 0.3ms | Allocations: 2734)
+
+
+Started GET "/powers/17" for ::1 at 2020-12-15 15:31:57 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 297)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.2ms | Allocations: 2725)
+
+
+Started GET "/powers/new" for ::1 at 2020-12-15 15:32:01 -0500
+Processing by PowersController#new as HTML
+  Rendering powers/new.html.erb within layouts/application
+  Rendered powers/new.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1181)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 3093)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 15:32:14 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"rnRjomuETJa2889SqCJmvVZm4irrM/4UfUCWI0n9w3jPbEg6b+Rzlm/Xv2/mbEQ6lFM43ANYbdXAfY6nkXEGAg==", "power"=>{"name"=>"slippery", "reason"=>"cant be caught", "rating"=>"1", "already_exists"=>"1"}, "commit"=>"Create Power"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.9ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "slippery"], ["reason", "cant be caught"], ["rating", 1], ["already_exists", 1], ["created_at", "2020-12-15 20:32:14.166310"], ["updated_at", "2020-12-15 20:32:14.166310"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/45
+Completed 302 Found in 10ms (ActiveRecord: 2.1ms | Allocations: 2814)
+
+
+Started GET "/powers/45" for ::1 at 2020-12-15 15:32:14 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"45"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 297)
+Completed 200 OK in 10ms (Views: 6.0ms | ActiveRecord: 0.3ms | Allocations: 2731)
+
+
+Started POST "/powers.45" for ::1 at 2020-12-15 15:32:16 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"rWvcOpM8FmD7SxLfgsW/jcZ5ruB2feawdUBCi2jJFbKfPxt2TPdzqAZDoO1AEgHYyC0/iIlkE5A7dAeFcd5yzw=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 764)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:42:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.45" for ::1 at 2020-12-15 15:33:33 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"rWvcOpM8FmD7SxLfgsW/jcZ5ruB2feawdUBCi2jJFbKfPxt2TPdzqAZDoO1AEgHYyC0/iIlkE5A7dAeFcd5yzw=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 1002)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.45" for ::1 at 2020-12-15 15:33:36 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"rWvcOpM8FmD7SxLfgsW/jcZ5ruB2feawdUBCi2jJFbKfPxt2TPdzqAZDoO1AEgHYyC0/iIlkE5A7dAeFcd5yzw=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 759)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.45" for ::1 at 2020-12-15 15:33:39 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"rWvcOpM8FmD7SxLfgsW/jcZ5ruB2feawdUBCi2jJFbKfPxt2TPdzqAZDoO1AEgHYyC0/iIlkE5A7dAeFcd5yzw=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 759)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.45" for ::1 at 2020-12-15 15:33:56 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"rWvcOpM8FmD7SxLfgsW/jcZ5ruB2feawdUBCi2jJFbKfPxt2TPdzqAZDoO1AEgHYyC0/iIlkE5A7dAeFcd5yzw=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 760)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.45" for ::1 at 2020-12-15 15:34:09 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"rWvcOpM8FmD7SxLfgsW/jcZ5ruB2feawdUBCi2jJFbKfPxt2TPdzqAZDoO1AEgHYyC0/iIlkE5A7dAeFcd5yzw=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 759)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.45" for ::1 at 2020-12-15 15:34:17 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"rWvcOpM8FmD7SxLfgsW/jcZ5ruB2feawdUBCi2jJFbKfPxt2TPdzqAZDoO1AEgHYyC0/iIlkE5A7dAeFcd5yzw=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 759)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.45" for ::1 at 2020-12-15 15:38:20 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"rWvcOpM8FmD7SxLfgsW/jcZ5ruB2feawdUBCi2jJFbKfPxt2TPdzqAZDoO1AEgHYyC0/iIlkE5A7dAeFcd5yzw=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 1002)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started GET "/powers" for ::1 at 2020-12-15 15:39:29 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 8.7ms | Allocations: 6784)
+Completed 200 OK in 17ms (Views: 12.6ms | ActiveRecord: 0.8ms | Allocations: 9937)
+
+
+Started GET "/powers/new" for ::1 at 2020-12-15 15:39:31 -0500
+Processing by PowersController#new as HTML
+  Rendering powers/new.html.erb within layouts/application
+  Rendered powers/new.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1451)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 3497)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 15:39:38 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"INrk6O/1Zrl8DzUT6lG8JbQOULzCy8B+mvT4D7GVd+FBws9w65VZuaUrRS6kH56idjuKSiqgU78nyeCLaRmymw==", "power"=>{"name"=>"x", "reason"=>"tube", "rating"=>"2", "already_exists"=>"1"}, "commit"=>"Create Power"}
+[31mUnpermitted parameters: :authenticity_token, :power, :commit[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (1.3ms)[0m  [1m[32mINSERT INTO "powers" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2020-12-15 20:39:38.640355"], ["updated_at", "2020-12-15 20:39:38.640355"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/46
+Completed 302 Found in 12ms (ActiveRecord: 2.8ms | Allocations: 2724)
+
+
+Started GET "/powers/46" for ::1 at 2020-12-15 15:39:38 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.8ms | Allocations: 511)
+Completed 200 OK in 10ms (Views: 5.8ms | ActiveRecord: 0.3ms | Allocations: 3200)
+
+
+Started GET "/powers/46" for ::1 at 2020-12-15 15:39:44 -0500
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mPower Load (0.1ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 302)
+Completed 200 OK in 11ms (Views: 2.9ms | ActiveRecord: 0.5ms | Allocations: 8112)
+
+
+Started GET "/powers/46" for ::1 at 2020-12-15 15:39:45 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mPower Load (0.6ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 289)
+Completed 200 OK in 8ms (Views: 3.8ms | ActiveRecord: 0.6ms | Allocations: 2711)
+
+
+Started GET "/powers/45" for ::1 at 2020-12-15 15:39:48 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"45"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 297)
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 0.3ms | Allocations: 2731)
+
+
+Started GET "/powers/46" for ::1 at 2020-12-15 15:39:50 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.9ms | Allocations: 289)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 0.4ms | Allocations: 2715)
+
+
+Started GET "/powers/en3w" for ::1 at 2020-12-15 15:39:54 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"en3w"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.2ms | Allocations: 1205)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Power with 'id'=en3w):
+  
+app/controllers/powers_controller.rb:11:in `show'
+Started GET "/powers/new" for ::1 at 2020-12-15 15:40:00 -0500
+Processing by PowersController#new as HTML
+  Rendering powers/new.html.erb within layouts/application
+  Rendered powers/new.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1181)
+Completed 200 OK in 16ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 3086)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 15:40:06 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"lIaN8i/L2XafoZ+8rwRBRXcK+u5Y0NpmobR8L8JD06/1nqZqK6vmdkaF74HhSmPCtT8gGLC7SacciWSrGs8W1Q==", "power"=>{"name"=>"y", "reason"=>"tube", "rating"=>"3", "already_exists"=>"0"}, "commit"=>"Create Power"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.5ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "y"], ["reason", "tube"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 20:40:06.326340"], ["updated_at", "2020-12-15 20:40:06.326340"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/47
+Completed 302 Found in 8ms (ActiveRecord: 1.7ms | Allocations: 2819)
+
+
+Started GET "/powers/47" for ::1 at 2020-12-15 15:40:06 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 297)
+Completed 200 OK in 6ms (Views: 3.4ms | ActiveRecord: 0.2ms | Allocations: 2729)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:40:15 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1915)
+Completed 200 OK in 10ms (Views: 7.9ms | ActiveRecord: 0.4ms | Allocations: 3814)
+
+
+Started GET "/powers/47" for ::1 at 2020-12-15 15:40:18 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPower Load (0.6ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 297)
+Completed 200 OK in 9ms (Views: 5.7ms | ActiveRecord: 0.6ms | Allocations: 2727)
+
+
+Started POST "/powers.47" for ::1 at 2020-12-15 15:40:20 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"X7yBhkCxg8CzL+yvLrn5ZCqNGyqXHikWfiOOT62g61gqy0IDu7XnsQ+fnqQdEwCvafmMxu51KbK850K7an+cyA=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 763)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.47" for ::1 at 2020-12-15 15:40:41 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"X7yBhkCxg8CzL+yvLrn5ZCqNGyqXHikWfiOOT62g61gqy0IDu7XnsQ+fnqQdEwCvafmMxu51KbK850K7an+cyA=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 763)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started POST "/powers.47" for ::1 at 2020-12-15 15:40:51 -0500
+Processing by PowersController#create as 
+  Parameters: {"authenticity_token"=>"X7yBhkCxg8CzL+yvLrn5ZCqNGyqXHikWfiOOT62g61gqy0IDu7XnsQ+fnqQdEwCvafmMxu51KbK850K7an+cyA=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 763)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started GET "/powers/new" for ::1 at 2020-12-15 15:40:54 -0500
+Processing by PowersController#new as HTML
+  Rendering powers/new.html.erb within layouts/application
+  Rendered powers/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1396)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 0.0ms | Allocations: 4224)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 15:41:02 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"oo5Qj4VxkgPVaR23CL8vCn7L6J2RCUjFvhMsL8m2QpjDlnsXgRGtAwxNbYpG8Q2NvP4ya3li2wQDLjSrETqH4g==", "power"=>{"name"=>"jacob", "reason"=>"being jenna", "rating"=>"3", "already_exists"=>"1"}, "commit"=>"Create Power"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[36mPower Create (0.8ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "jacob"], ["reason", "being jenna"], ["rating", 3], ["already_exists", 1], ["created_at", "2020-12-15 20:41:02.276476"], ["updated_at", "2020-12-15 20:41:02.276476"]]
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:19:in `create'
+Redirected to http://localhost:3000/powers/48
+Completed 302 Found in 12ms (ActiveRecord: 2.3ms | Allocations: 2806)
+
+
+Started GET "/powers/48" for ::1 at 2020-12-15 15:41:02 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"48"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 2.0ms | Allocations: 492)
+Completed 200 OK in 11ms (Views: 6.7ms | ActiveRecord: 0.3ms | Allocations: 3067)
+
+
+Started POST "/powers" for ::1 at 2020-12-15 15:41:04 -0500
+Processing by PowersController#create as HTML
+  Parameters: {"authenticity_token"=>"OumkvUbVYrH8YIfx1wWc+nRJMgz/R9KfHGBusHwJii9b8Y8lQrVdsSVE98yZS759tnzo+hcsQV6hXXY0pIVPVQ=="}
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms | Allocations: 762)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: power):
+  
+app/controllers/powers_controller.rb:43:in `create_power_params'
+app/controllers/powers_controller.rb:19:in `create'
+Started GET "/powers" for ::1 at 2020-12-15 15:41:45 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 7.9ms | Allocations: 2066)
+Completed 200 OK in 21ms (Views: 18.1ms | ActiveRecord: 0.3ms | Allocations: 4890)
+
+
+Started GET "/powers/30" for ::1 at 2020-12-15 15:41:48 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"30"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.3ms | Allocations: 380)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 2959)
+
+
+Started DELETE "/powers/30" for ::1 at 2020-12-15 15:41:49 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UBdr1vmQPTA/uG1ridodvtpMuvknCMSLnyPh3gLjDXRfG35rehNAjO73zbKQdC8yeyRfF9AZbmFLBwQNIidQGQ==", "id"=>"30"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 30], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[36mPower Destroy (0.6ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 30]]
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 10ms (ActiveRecord: 2.6ms | Allocations: 2847)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:41:49 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.6ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 1896)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.6ms | Allocations: 3796)
+
+
+Started GET "/powers/31" for ::1 at 2020-12-15 15:41:52 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"31"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 161)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 2595)
+
+
+Started DELETE "/powers/31" for ::1 at 2020-12-15 15:41:53 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"D1Curlxk2J/mRnCbSj6FFC4xj2t+CTVWl8jbpH8Ldk1GJf1iuEF0xKm6A1ti9FP9yOTjrjxwkL2L9e9mmoY3jw==", "id"=>"31"}
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 31], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[36mPower Destroy (0.5ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 31]]
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 10ms (ActiveRecord: 2.6ms | Allocations: 2845)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:41:53 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.6ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1857)
+Completed 200 OK in 14ms (Views: 11.9ms | ActiveRecord: 0.6ms | Allocations: 3759)
+
+
+Started GET "/powers/48" for ::1 at 2020-12-15 15:41:55 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"48"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 161)
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 2595)
+
+
+Started DELETE "/powers/48" for ::1 at 2020-12-15 15:41:56 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"t8iZhuCkC1Eee81ZykQa5pr3r0c3cDjMCGrnWjuweZ2v0sDsHJcDHOMBcciAKhvP3LfCZ1L03gjT8lJYbP487g==", "id"=>"48"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 48], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[36mPower Destroy (0.5ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 48]]
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 12ms (ActiveRecord: 2.4ms | Allocations: 2849)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:41:56 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1819)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.3ms | Allocations: 3717)
+
+
+Started GET "/powers/47" for ::1 at 2020-12-15 15:42:08 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"47"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.2ms | Allocations: 161)
+Completed 200 OK in 11ms (Views: 6.6ms | ActiveRecord: 0.4ms | Allocations: 2592)
+
+
+Started DELETE "/powers/47" for ::1 at 2020-12-15 15:42:09 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kna0GNHR7Uwi4eZUeQqHfQOAyz/lWwWiklzvDe0mn1vVjxV+g7+ZlyQlANH1zKwFHqBeAYeyBVBMY7T9LTAS8g==", "id"=>"47"}
+  [1m[36mPower Load (0.1ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 47], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[36mPower Destroy (0.3ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 47]]
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 6ms (ActiveRecord: 1.5ms | Allocations: 2851)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:42:09 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 2.2ms | Allocations: 2359)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.2ms | Allocations: 5262)
+
+
+Started GET "/powers/46" for ::1 at 2020-12-15 15:42:11 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"46"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 153)
+Completed 200 OK in 7ms (Views: 3.4ms | ActiveRecord: 0.4ms | Allocations: 2577)
+
+
+Started DELETE "/powers/46" for ::1 at 2020-12-15 15:42:12 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OAUNI9gNhuvIgrd13vM/Sq7gwe2vF0fzJVOh2pmoR1V7/gyvxXfqGXSRDxJ1z8oe4rTMXPMKu0wNYwB+TzGQsA==", "id"=>"46"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 46], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[36mPower Destroy (1.1ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 46]]
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 12ms (ActiveRecord: 2.9ms | Allocations: 2845)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:42:12 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1746)
+Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.4ms | Allocations: 3646)
+
+
+Started GET "/powers/44" for ::1 at 2020-12-15 15:42:15 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"44"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.9ms | Allocations: 153)
+Completed 200 OK in 12ms (Views: 8.5ms | ActiveRecord: 0.3ms | Allocations: 2580)
+
+
+Started DELETE "/powers/44" for ::1 at 2020-12-15 15:42:16 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PjvtB2X2aq8fOqk3CCh/CtinPBf8IAC2L4V12G9Q7GVoXrgm8i3KW42lzlx8ZJH2Hpiab7wwIggeC/rW+UPq3g==", "id"=>"44"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 44], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[36mPower Destroy (0.8ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 44]]
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 11ms (ActiveRecord: 2.8ms | Allocations: 2847)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:42:16 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1711)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.3ms | Allocations: 3611)
+
+
+Started GET "/powers/33" for ::1 at 2020-12-15 15:42:18 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"33"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 1.0ms | Allocations: 161)
+Completed 200 OK in 8ms (Views: 4.5ms | ActiveRecord: 0.2ms | Allocations: 2591)
+
+
+Started DELETE "/powers/33" for ::1 at 2020-12-15 15:42:19 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NdSEqX1lRHvOmi4rR0aUcOnfe8xvTWdTWW3EtPwR5dpuRmexw0ru9MJyxB9eX1uD+umfn8IFIBV2lS0OQW7HoQ==", "id"=>"33"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 33], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[36mPower Destroy (0.4ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 33]]
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 10ms (ActiveRecord: 2.4ms | Allocations: 2845)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:42:19 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1673)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.4ms | Allocations: 3576)
+
+
+Started GET "/powers/45" for ::1 at 2020-12-15 15:42:21 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"45"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 161)
+Completed 200 OK in 8ms (Views: 4.4ms | ActiveRecord: 0.3ms | Allocations: 2591)
+
+
+Started DELETE "/powers/45" for ::1 at 2020-12-15 15:42:22 -0500
+Processing by PowersController#destroy as HTML
+  Parameters: {"authenticity_token"=>"f3FK7eeCoApl1nmy8WgzXbzuNqsLiaFwOGVmkjMejefSNQhc6n/jOHqGUmhbOg+tiHPd3/TVBs1+Z1aPBIUxig==", "id"=>"45"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 45], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:35:in `destroy'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[36mPower Destroy (0.5ms)[0m  [1m[31mDELETE FROM "powers" WHERE "powers"."id" = ?[0m  [["id", 45]]
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:36:in `destroy'
+Redirected to http://localhost:3000/powers
+Completed 302 Found in 9ms (ActiveRecord: 2.3ms | Allocations: 3579)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 15:42:22 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 2.7ms | Allocations: 1635)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.3ms | Allocations: 3537)
+
+
+Started GET "/powers/12" for ::1 at 2020-12-15 15:42:23 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"12"}
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.8ms | Allocations: 161)
+Completed 200 OK in 8ms (Views: 4.2ms | ActiveRecord: 0.3ms | Allocations: 2591)
+
+
+Started GET "/powers/10/edit" for ::1 at 2020-12-15 15:42:40 -0500
+Processing by PowersController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:25:in `edit'
+  Rendering powers/edit.html.erb within layouts/application
+  Rendered powers/edit.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1004)
+Completed 200 OK in 19ms (Views: 12.5ms | ActiveRecord: 0.4ms | Allocations: 3575)
+
+
+Started PATCH "/powers/10" for ::1 at 2020-12-15 15:42:49 -0500
+Processing by PowersController#update as HTML
+  Parameters: {"authenticity_token"=>"ZnWoCTQ+z+11e9/RN9Flj6+hl+aT1alTzWjiVBiG9JLMOeX5syQ3dQ0K/8vKspxEriZqWS/R3kGfFD9Db10Eww==", "power"=>{"reason"=>"using the force", "rating"=>"2"}, "commit"=>"Update Power", "id"=>"10"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:29:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/powers_controller.rb:30:in `update'
+  [1m[36mPower Update (0.7ms)[0m  [1m[33mUPDATE "powers" SET "reason" = ?, "rating" = ?, "updated_at" = ? WHERE "powers"."id" = ?[0m  [["reason", "using the force"], ["rating", 2], ["updated_at", "2020-12-15 20:42:49.891423"], ["id", 10]]
+  ↳ app/controllers/powers_controller.rb:30:in `update'
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/powers_controller.rb:30:in `update'
+Redirected to http://localhost:3000/powers/10
+Completed 302 Found in 15ms (ActiveRecord: 5.9ms | Allocations: 3425)
+
+
+Started GET "/powers/10" for ::1 at 2020-12-15 15:42:49 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:11:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 0.7ms | Allocations: 161)
+Completed 200 OK in 7ms (Views: 3.5ms | ActiveRecord: 0.2ms | Allocations: 2588)
+
+

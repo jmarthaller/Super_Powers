@@ -1,4 +1,8 @@
 class PowersController < ApplicationController
+
+    def home
+    end
+
     def index
         @powers = Power.all
     end
@@ -13,6 +17,7 @@ class PowersController < ApplicationController
 
     def create 
         @power = Power.create(create_power_params)
+
         redirect_to power_path(@power)
     end
 
