@@ -1,0 +1,13 @@
+<h1>Power Detail Page</h1>
+
+<h4> <%= @power.name %> </h4>
+
+<h4> <%= @power.rating %> </h4>
+
+<p> <%= "Already exists in the comic book world" if @power.already_exists == true %> </p>
+<p> <%= "Watch out Marvel" if @power.already_exists == false %> </p>
+
+
+<%= button_to "Delete Power", power_path(@power), method: :delete %>
+<%= button_to "Return to List of SuperPowers", powers_path(@power) %>
+

@@ -1,3 +1,6 @@
-as;kdjfaklsdjfa
+<h1>List of Super Powers</h1>
 
-asl;kdjfal;ksdjfl;askj
+
+<% @powers.each do |power| %>
+    <p><%= link_to power.name, power_path(power) %></  p>
+<% end  %>

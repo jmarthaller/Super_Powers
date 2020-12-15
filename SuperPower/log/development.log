@@ -267,3 +267,494 @@ Your manifest contains:
     12:   <body>
   
 app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 10:16:35 -0500
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 13.5ms | Allocations: 505)
+Completed 200 OK in 22ms (Views: 15.9ms | ActiveRecord: 0.0ms | Allocations: 2175)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 10:16:39 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  Rendered powers/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 86)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1060ms (ActiveRecord: 0.0ms | Allocations: 9351)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 10:21:23 -0500
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 8.7ms | Allocations: 315)
+Completed 200 OK in 16ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 1833)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 10:21:26 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  Rendered powers/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 168)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1030ms (ActiveRecord: 0.0ms | Allocations: 9792)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/powers" for ::1 at 2020-12-15 10:24:33 -0500
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  Rendered powers/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 204)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1040ms (ActiveRecord: 0.0ms | Allocations: 10520)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 10:24:42 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 14.2ms | Allocations: 196)
+Completed 200 OK in 20ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 997)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 10:24:45 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  Rendered powers/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 83)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 958ms (ActiveRecord: 0.0ms | Allocations: 6645)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (1.0ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Reality Warping"], ["reason", "Chromos"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.826781"], ["updated_at", "2020-12-15 15:33:07.826781"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Human physical perfection"], ["reason", "Demogoblin"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.832289"], ["updated_at", "2020-12-15 15:33:07.832289"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.4ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Animal Control"], ["reason", "Lizard"], ["rating", 4], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.836424"], ["updated_at", "2020-12-15 15:33:07.836424"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.5ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Orbing"], ["reason", "Kang"], ["rating", 5], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.840637"], ["updated_at", "2020-12-15 15:33:07.840637"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "The Force"], ["reason", "Penance"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.850605"], ["updated_at", "2020-12-15 15:33:07.850605"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Resurrection"], ["reason", "Nathan Petrelli"], ["rating", 4], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.855465"], ["updated_at", "2020-12-15 15:33:07.855465"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Astral Travel"], ["reason", "Garbage"], ["rating", 1], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.859078"], ["updated_at", "2020-12-15 15:33:07.859078"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Wallcrawling"], ["reason", "Krypto"], ["rating", 1], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.862443"], ["updated_at", "2020-12-15 15:33:07.862443"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "The Force"], ["reason", "Spectre"], ["rating", 3], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.866894"], ["updated_at", "2020-12-15 15:33:07.866894"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Separation"], ["reason", "Forge"], ["rating", 5], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.870531"], ["updated_at", "2020-12-15 15:33:07.870531"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Longevity"], ["reason", "Ink"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.874215"], ["updated_at", "2020-12-15 15:33:07.874215"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Weapon-based Powers"], ["reason", "Siren"], ["rating", 4], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.878170"], ["updated_at", "2020-12-15 15:33:07.878170"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Telekinesis"], ["reason", "Apocalypse"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.881822"], ["updated_at", "2020-12-15 15:33:07.881822"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Enhanced Memory"], ["reason", "Box"], ["rating", 2], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.885414"], ["updated_at", "2020-12-15 15:33:07.885414"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Levitation"], ["reason", "Namor"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.890017"], ["updated_at", "2020-12-15 15:33:07.890017"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Radiation Absorption"], ["reason", "Spider"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.894141"], ["updated_at", "2020-12-15 15:33:07.894141"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Telekinesis"], ["reason", "Doc Samson"], ["rating", 3], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.898843"], ["updated_at", "2020-12-15 15:33:07.898843"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.4ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Toxikinesis"], ["reason", "Sabretooth"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.902988"], ["updated_at", "2020-12-15 15:33:07.902988"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Clairvoyance"], ["reason", "Kool-Aid Man"], ["rating", 2], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.907012"], ["updated_at", "2020-12-15 15:33:07.907012"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.5ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Stealth"], ["reason", "Sage"], ["rating", 1], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.911057"], ["updated_at", "2020-12-15 15:33:07.911057"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.5ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Death Touch"], ["reason", "Martian Manhunter"], ["rating", 1], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.917190"], ["updated_at", "2020-12-15 15:33:07.917190"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.4ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Intelligence"], ["reason", "Bumblebee"], ["rating", 1], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.922254"], ["updated_at", "2020-12-15 15:33:07.922254"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Psychokinesis"], ["reason", "Toad"], ["rating", 2], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.927579"], ["updated_at", "2020-12-15 15:33:07.927579"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.8ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Enhanced Memory"], ["reason", "Hyperion"], ["rating", 3], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.931893"], ["updated_at", "2020-12-15 15:33:07.931893"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Levitation"], ["reason", "Beak"], ["rating", 1], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.937933"], ["updated_at", "2020-12-15 15:33:07.937933"]]
+  [1m[35m (0.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Absorption"], ["reason", "Vindicator"], ["rating", 1], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.942002"], ["updated_at", "2020-12-15 15:33:07.942002"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.4ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Spatial Awareness"], ["reason", "Rogue"], ["rating", 2], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.967193"], ["updated_at", "2020-12-15 15:33:07.967193"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Lantern Power Ring"], ["reason", "Monarch"], ["rating", 3], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.972679"], ["updated_at", "2020-12-15 15:33:07.972679"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Geokinesis"], ["reason", "Aurora"], ["rating", 4], ["already_exists", 0], ["created_at", "2020-12-15 15:33:07.977323"], ["updated_at", "2020-12-15 15:33:07.977323"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPower Create (0.3ms)[0m  [1m[32mINSERT INTO "powers" ("name", "reason", "rating", "already_exists", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "Atmokinesis"], ["reason", "Sobek"], ["rating", 5], ["already_exists", 1], ["created_at", "2020-12-15 15:33:07.981645"], ["updated_at", "2020-12-15 15:33:07.981645"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPower Load (0.7ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+Started GET "/" for ::1 at 2020-12-15 11:17:59 -0500
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 57.2ms | Allocations: 315)
+Completed 200 OK in 70ms (Views: 61.9ms | ActiveRecord: 0.0ms | Allocations: 1837)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 11:18:02 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (1.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 6992)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1025ms (ActiveRecord: 2.3ms | Allocations: 16249)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/powers/1" for ::1 at 2020-12-15 11:18:09 -0500
+Processing by PowersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers" WHERE "powers"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/powers_controller.rb:7:in `show'
+  Rendering powers/show.html.erb within layouts/application
+  Rendered powers/show.html.erb within layouts/application (Duration: 5.9ms | Allocations: 365)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 904ms (ActiveRecord: 0.5ms | Allocations: 7125)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers" ORDER BY "powers"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" ORDER BY "powers"."id" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 1], ["OFFSET", 2]]
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" ORDER BY "powers"."id" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 1], ["OFFSET", 2]]
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" ORDER BY "powers"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+Started GET "/" for ::1 at 2020-12-15 11:32:01 -0500
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 48.3ms | Allocations: 315)
+Completed 200 OK in 64ms (Views: 55.0ms | ActiveRecord: 0.0ms | Allocations: 1839)
+
+
+Started GET "/power" for ::1 at 2020-12-15 11:32:04 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/power"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/powers" for ::1 at 2020-12-15 11:32:06 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 31.3ms | Allocations: 6994)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1040ms (ActiveRecord: 2.5ms | Allocations: 15996)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started GET "/" for ::1 at 2020-12-15 11:37:12 -0500
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jacobmarthaller/.rvm/gems/ruby-2.6.1/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 65.2ms | Allocations: 315)
+Completed 200 OK in 124ms (Views: 77.4ms | ActiveRecord: 0.0ms | Allocations: 1836)
+
+
+Started GET "/powers" for ::1 at 2020-12-15 11:37:15 -0500
+Processing by PowersController#index as HTML
+  Rendering powers/index.html.erb within layouts/application
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  ↳ app/views/powers/index.html.erb:4
+  Rendered powers/index.html.erb within layouts/application (Duration: 27.7ms | Allocations: 6986)
+[Webpacker] Compiling...
+[Webpacker] Compilation failed:
+yarn run v1.22.10
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+
+
+error Command "webpack" not found.
+
+Completed 500 Internal Server Error in 1484ms (ActiveRecord: 1.5ms | Allocations: 16231)
+
+
+  
+ActionView::Template::Error (Webpacker can't find application in /Users/jacobmarthaller/Flatiron/code/Phase-Two/Super_Powers/SuperPower/public/packs/manifest.json. Possible causes:
+1. You want to set webpacker.yml value of compile to true for your environment
+   unless you are using the `webpack -w` or the webpack-dev-server.
+2. webpack has not yet re-run to reflect updates.
+3. You have misconfigured Webpacker's config/webpacker.yml file.
+4. Your webpack configuration is not creating a manifest.
+Your manifest contains:
+{
+}
+):
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  
+app/views/layouts/application.html.erb:9
+Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for ::1 at 2020-12-15 11:37:44 -0500
+Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for ::1 at 2020-12-15 11:37:45 -0500
+Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for ::1 at 2020-12-15 11:37:45 -0500
+  [1m[36mPower Load (0.4ms)[0m  [1m[34mSELECT "powers".* FROM "powers" LIMIT ?[0m  [["LIMIT", 11]]
+Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for ::1 at 2020-12-15 11:37:52 -0500
+Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for ::1 at 2020-12-15 11:37:54 -0500
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" ORDER BY "powers"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:9
+  [1m[36mCACHE Power Load (0.0ms)[0m  [1m[34mSELECT "powers".* FROM "powers" ORDER BY "powers"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:9
+Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for ::1 at 2020-12-15 11:37:55 -0500
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" ORDER BY "powers"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
+  ↳ app/views/layouts/application.html.erb:9
