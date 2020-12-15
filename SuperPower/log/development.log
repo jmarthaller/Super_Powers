@@ -758,3 +758,10 @@ Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for 
 Started PUT "/__web_console/repl_sessions/5497d8335bbbcec3f73f9342487805cc" for ::1 at 2020-12-15 11:37:55 -0500
   [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers" ORDER BY "powers"."id" ASC LIMIT ?[0m  [["LIMIT", 1]]
   ↳ app/views/layouts/application.html.erb:9
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mPower Load (0.5ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  [1m[36mPower Load (0.3ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m
+  [1m[36mPower Load (0.2ms)[0m  [1m[34mSELECT "powers".* FROM "powers"[0m

@@ -4,6 +4,9 @@
 
 <h4> <%= @power.rating %> </h4>
 
+
+<p> <%= Power.all.select {|power| power.name == self.name }.map {|power| power.rating }.reduce(:+) / Power.all.select {|power| power.name == self.name }.count %> </p>
+
 <p> <%= "Already exists in the comic book world" if @power.already_exists == true %> </p>
 <p> <%= "Watch out Marvel" if @power.already_exists == false %> </p>
 
