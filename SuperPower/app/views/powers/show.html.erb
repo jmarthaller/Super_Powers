@@ -14,5 +14,6 @@
 
 
 <%= button_to "Delete Power", power_path(@power), method: :delete %>
-<%# button_to "Return to List of SuperPowers", powers_path(@power) %>
+<%# button_to "Return to SuperPowers", powers_path, method: :get %>
+<p><%= link_to @power.name, powers_path(@power) %></p>
 
